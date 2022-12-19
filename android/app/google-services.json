@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "263137953695",
+    "project_id": "trabzon-bilgi-yarismasi",
+    "storage_bucket": "trabzon-bilgi-yarismasi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263137953695:android:f3a96542435e8700d85faa",
+        "android_client_info": {
+          "package_name": "com.example.bilgi_yarismasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263137953695-nr888mj6rfrjamp1p9jvaki1hailvk2p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj9wJ6BVSaj_8PEF41zAlLx1ninu08-RY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263137953695-nr888mj6rfrjamp1p9jvaki1hailvk2p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
