@@ -3,13 +3,13 @@ import 'package:flutter/material.dart';
 TextField girisTextField({
   required TextEditingController eklenecekVeri,
   required InputDecoration dekorasyon,
-  required bool isAutoFocus,
+  bool? isAutoFocus,
   required TextInputAction ilerleme,
 }) {
   return TextField(
     textInputAction: ilerleme,
     controller: eklenecekVeri,
-    autofocus: isAutoFocus,
+    autofocus: isAutoFocus!,
     keyboardType: TextInputType.text,
     decoration: dekorasyon,
   );
