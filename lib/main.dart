@@ -1,7 +1,8 @@
-import 'package:bilgi_yarismasi/giris_ekrani.dart';
+import 'package:bilgi_yarismasi/service/initFirebase.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           primarySwatch: Colors.blue,
           scaffoldBackgroundColor: Colors.blue[200]),
-      home: const GirisEkrani(),
+      home: const initFirebase(),
     );
   }
 }

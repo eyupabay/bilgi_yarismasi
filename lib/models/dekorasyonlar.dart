@@ -15,6 +15,17 @@ TextField girisTextField({
   );
 }
 
+AppBar menuAppBar(
+    {Widget? solClick, String? menuYazisi, List<Widget>? sagClick}) {
+  return AppBar(
+    leading: solClick,
+    title: Center(
+      child: Text(menuYazisi!),
+    ),
+    actions: sagClick,
+  );
+}
+
 InputDecoration kullaniciAdiDekorasyonu() {
   return const InputDecoration(
     icon: Icon(
